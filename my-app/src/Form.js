@@ -28,9 +28,6 @@ const UserCards = styled.div`
     flex-wrap: wrap;
     border: 2px solid navy;
 `;
-const Topic = styled.small`
-    color: navy;
-`;
 const Button = styled.button`
     background-color: transparent;
     color: navy
