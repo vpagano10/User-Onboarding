@@ -69,7 +69,7 @@ const UserOnboarding = ({values, touched, errors, status}) => {
                     <p>{errors.email}</p>
                 )}<br />
                 <Field 
-                type='text'
+                type='password'
                 name='password'
                 placeholder='password'
                 />
@@ -87,7 +87,7 @@ const UserOnboarding = ({values, touched, errors, status}) => {
                 <UserCards key={user.id}>
                     <p>Name: {user.name}</p>
                     <p>Email: {user.email}</p>
-                    <p>Password: {user.password}</p>
+                    <p>Password Length: {user.password.length}</p>
                 </UserCards>
             ))}
         </div>
